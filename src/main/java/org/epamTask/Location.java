@@ -1,8 +1,8 @@
 package org.epamTask;
 
 public class Location {
-    private final int floor;
-    private final String wing;
+    private Integer floor;
+    private String wing;
 
     public Location(int floor, String wing) {
         this.floor = floor;
@@ -15,5 +15,13 @@ public class Location {
 
     public String getWing() {
         return wing;
+    }
+
+    public void setFloor(Integer floor) {
+        this.floor = floor;
+    }
+
+    public void setWing(String wing) {
+        this.wing = wing;
     }
 }

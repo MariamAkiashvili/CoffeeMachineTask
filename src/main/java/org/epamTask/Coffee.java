@@ -7,7 +7,7 @@ public class Coffee extends Drink {
     private RoastLevel roastLevel;
     private CoffeeType type;
     private String origin;
-    private double caffeineContent;
+    private Double caffeineContent;
 
     private List<String> additives;
 

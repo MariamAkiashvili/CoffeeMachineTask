@@ -2,8 +2,8 @@ package org.epamTask;
 
 public class Drink {
     private String name;
-    private double price;
-    private double volume;
+    private Double price;
+    private Double volume;
     private String manufacturer;
 
 

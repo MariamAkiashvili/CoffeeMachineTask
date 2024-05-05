@@ -7,14 +7,14 @@ public class Building {
     private BuildingType type;
     private String owner;
     private String cadastralCode;
-    private final Date builtYear;
+    private Date builtDate;
 
-    public Building(String name, BuildingType type, String owner, String cadastralCode, Date builtYear) {
+    public Building(String name, BuildingType type, String owner, String cadastralCode, Date builtDate) {
         this.name = name;
         this.type = type;
         this.owner = owner;
         this.cadastralCode = cadastralCode;
-        this.builtYear = builtYear;
+        this.builtDate = builtDate;
     }
 
     public String getName() {
@@ -49,8 +49,12 @@ public class Building {
         this.cadastralCode = cadastralCode;
     }
 
-    public Date getBuiltYear() {
-        return builtYear;
+    public Date getBuiltDate() {
+        return builtDate;
+    }
+
+    public void setBuiltYear(Date date) {
+        this.builtDate = date;
     }
 
 
